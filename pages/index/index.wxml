@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="banner">
+  <!--加载样式-->
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+  <!--幻灯片-->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}" wx:key="lunbo">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" bindtap="swipclick" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

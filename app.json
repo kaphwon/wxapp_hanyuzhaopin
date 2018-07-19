@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/navigation/navigation",
+    "pages/xianchang/xianchang",
+    "pages/hyrc/hyrc",
+    "pages/zhilian/zhilian"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "涵宇求职招聘",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#d81e06",
+    "borderStyle": "#b2b2b2",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "selectedIconPath": "images/ahome.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/axianchang.png",
+        "iconPath": "images/xianchang.png",
+        "pagePath": "pages/xianchang/xianchang",
+        "text": "现场招聘"
+      },
+      {
+        "selectedIconPath": "images/ahyrc.png",
+        "iconPath": "images/hyrc.png",
+        "pagePath": "pages/hyrc/hyrc",
+        "text": "衡阳人才网"
+      },
+      {
+        "selectedIconPath": "images/azhilian.png",
+        "iconPath": "images/zhilian.png",
+        "pagePath": "pages/zhilian/zhilian",
+        "text": "智联招聘"
+      }
+    ]
+  }
+}
